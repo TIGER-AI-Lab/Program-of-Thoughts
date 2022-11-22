@@ -97,11 +97,11 @@ python compute_score.py --inputs svamp_s0_e-1_11_06_21_11.jsonl
 
 5. FinQA
 - Number of Test Examples: 1147 
-- Ouptut: outputs/finqa_s0_e-1_11_09_13_15.jsonl
-- EM Score: 0.623
+- Ouptut: outputs/finqa_s0_e-1_11_16_13_29.jsonl
+- EM Score: 0.647
 
 - Output: outputs/finqa_sc_s0_e-1_11_09_13_00.jsonl
-- EM SCore: 0.651
+- EM SCore: 0.682
 
 
 6. ConvFinQA
