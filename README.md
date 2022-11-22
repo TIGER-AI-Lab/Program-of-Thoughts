@@ -1,8 +1,13 @@
 ## Program of Thoughts
-This is code repository for the paper "Program of Thoughts Prompting: Disentangling Computation from Reasoning for Numerical Reasoning Tasks"
+This is code repository for the paper "Program of Thoughts Prompting: Disentangling Computation from Reasoning for Numerical Reasoning Tasks". We propose to disentangle computation and reasoning from in the problem solving process. The large language model only needs to express the thoughts using Python program, the computation and solving process is accomplished via an external Python Interpreter. 
 
+<p align="center">
+<img src="assets/example.001.jpeg" width="1000">
+</p>
 
-
+1. We outperform few-shot CoT by an average of 12% on all the datasets evaluated.
+2. We outperform zero-shot CoT also by an average of 12% on all the datasets evaluated.
+3. We achieve SoTA performance with self-consistency decoding on all the evaluated math word problem datasets (GSM8K, AQuA, SVAMP, TabMWP, MultiArith).
 
 
 
