@@ -9,6 +9,20 @@ This is code repository for the paper "Program of Thoughts Prompting: Disentangl
 2. We outperform zero-shot CoT also by an average of 12% on all the datasets evaluated.
 3. We achieve SoTA performance with self-consistency decoding on all the evaluated math word problem datasets (GSM8K, AQuA, SVAMP, TabMWP, MultiArith).
 
+Comparison with Few-shot CoT:
+<p align="center">
+<img src="assets/FS-Comparison.png" width="600">
+</p>
+
+Comparison with Few-shot CoT with self-consistency:
+<p align="center">
+<img src="assets/SC-Comparison.png" width="600">
+</p>
+
+Comparison with Zero-shot CoT:
+<p align="center">
+<img src="assets/ZS-Comparison.png" width="600">
+</p>
 
 
 ## Few-shot Results
