@@ -2,7 +2,7 @@
 This is code repository for the paper "Program of Thoughts Prompting: Disentangling Computation from Reasoning for Numerical Reasoning Tasks". We propose to disentangle computation and reasoning from in the problem solving process. The large language model only needs to express the thoughts using Python program, the computation and solving process is accomplished via an external Python Interpreter. 
 
 <p align="center">
-<img src="assets/example.001.jpeg" width="1000">
+<img src="assets/intro.001.jpeg" width="1000">
 </p>
 
 1. We outperform few-shot CoT by an average of 12% on all the datasets evaluated.
@@ -97,11 +97,11 @@ python compute_score.py --inputs svamp_s0_e-1_11_06_21_11.jsonl
 
 5. FinQA
 - Number of Test Examples: 1147 
-- Ouptut: outputs/finqa_s0_e-1_11_09_13_15.jsonl
-- EM Score: 0.623
+- Ouptut: outputs/finqa_s0_e-1_11_16_13_29.jsonl
+- EM Score: 0.647
 
 - Output: outputs/finqa_sc_s0_e-1_11_09_13_00.jsonl
-- EM SCore: 0.651
+- EM SCore: 0.682
 
 
 6. ConvFinQA
