@@ -2,7 +2,7 @@
 This is code repository for the paper "Program of Thoughts Prompting: Disentangling Computation from Reasoning for Numerical Reasoning Tasks". We propose to disentangle computation and reasoning from in the problem solving process. The large language model only needs to express the thoughts using Python program, the computation and solving process is accomplished via an external Python Interpreter. 
 
 <p align="center">
-<img src="assets/example.001.jpeg" width="1000">
+<img src="assets/intro.001.jpeg" width="1000">
 </p>
 
 1. We outperform few-shot CoT by an average of 12% on all the datasets evaluated.
