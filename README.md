@@ -24,6 +24,42 @@ Comparison with Zero-shot CoT:
 <img src="assets/ZS-Comparison.png" width="600">
 </p>
 
+## Running the code
+
+First you need to specify your OPENAI key
+```
+export OPENAI_KEY = [YOUR_KEY]
+```
+
+- Few-shot + Greedy
+```
+python run_gsm8k.py --greedy
+python run_aqua.py --greedy
+...
+```
+- Few-shot + Self-Consistency
+```
+python run_gsm8k.py
+python run_aqua.py
+...
+```
+-  Zero-shot
+```
+python run_gsm8k_zs.py
+python run_aqua_zs.py
+...
+```
+
+The prediction file will be dumped in the outputs/ folder, let's say gsm8K_s0_e-1_11_17_10_20.jsonl, or gsm8K_sc_s0_e-1_11_08_21_14.jsonl, or  gsm8K_zs_s0_e-1_11_19_09_55.jsonl.
+
+- Evaluation
+```
+cd outputs
+python compute_score.py --inputs gsm8K_s0_e-1_11_17_10_20.jsonl
+python compute_score.py --inputs aqua_s0_e-1_11_06_18_38.jsonl
+python compute_score.py --inputs svamp_s0_e-1_11_06_21_11.jsonl
+....
+```
 
 ## Few-shot Results
 
