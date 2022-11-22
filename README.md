@@ -9,7 +9,57 @@ This is code repository for the paper "Program of Thoughts Prompting: Disentangl
 2. We outperform zero-shot CoT also by an average of 12% on all the datasets evaluated.
 3. We achieve SoTA performance with self-consistency decoding on all the evaluated math word problem datasets (GSM8K, AQuA, SVAMP, TabMWP, MultiArith).
 
+Comparison with Few-shot CoT:
+<p align="center">
+<img src="assets/FS-Comparison.png" width="600">
+</p>
 
+Comparison with Few-shot CoT with self-consistency:
+<p align="center">
+<img src="assets/SC-Comparison.png" width="600">
+</p>
+
+Comparison with Zero-shot CoT:
+<p align="center">
+<img src="assets/ZS-Comparison.png" width="600">
+</p>
+
+## Running the code
+
+First you need to specify your OPENAI key
+```
+export OPENAI_KEY = [YOUR_KEY]
+```
+
+- Few-shot + Greedy
+```
+python run_gsm8k.py --greedy
+python run_aqua.py --greedy
+...
+```
+- Few-shot + Self-Consistency
+```
+python run_gsm8k.py
+python run_aqua.py
+...
+```
+-  Zero-shot
+```
+python run_gsm8k_zs.py
+python run_aqua_zs.py
+...
+```
+
+The prediction file will be dumped in the outputs/ folder, let's say gsm8K_s0_e-1_11_17_10_20.jsonl, or gsm8K_sc_s0_e-1_11_08_21_14.jsonl, or  gsm8K_zs_s0_e-1_11_19_09_55.jsonl.
+
+- Evaluation
+```
+cd outputs
+python compute_score.py --inputs gsm8K_s0_e-1_11_17_10_20.jsonl
+python compute_score.py --inputs aqua_s0_e-1_11_06_18_38.jsonl
+python compute_score.py --inputs svamp_s0_e-1_11_06_21_11.jsonl
+....
+```
 
 ## Few-shot Results
 
