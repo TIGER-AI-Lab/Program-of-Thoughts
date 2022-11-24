@@ -1,5 +1,7 @@
 ## Program of Thoughts
-This is code repository for the paper "Program of Thoughts Prompting: Disentangling Computation from Reasoning for Numerical Reasoning Tasks". We propose to disentangle computation and reasoning from in the problem solving process. The large language model only needs to express the thoughts using Python program, the computation and solving process is accomplished via an external Python Interpreter. 
+This is code repository for the paper [Program of Thoughts Prompting: Disentangling Computation from Reasoning for Numerical Reasoning Tasks](https://arxiv.org/abs/2211.12588). 
+
+We propose to disentangle computation and reasoning from in the problem solving process. The large language model only needs to express the thoughts using Python program, the computation and solving process is accomplished via an external Python Interpreter. 
 
 <p align="center">
 <img src="assets/intro.001.jpeg" width="1000">
