@@ -1,5 +1,7 @@
 ## Program of Thoughts
-This is code repository for the paper "Program of Thoughts Prompting: Disentangling Computation from Reasoning for Numerical Reasoning Tasks". We propose to disentangle computation and reasoning from in the problem solving process. The large language model only needs to express the thoughts using Python program, the computation and solving process is accomplished via an external Python Interpreter. 
+This is code repository for the paper [Program of Thoughts Prompting: Disentangling Computation from Reasoning for Numerical Reasoning Tasks](https://arxiv.org/abs/2211.12588). 
+
+We propose to disentangle computation and reasoning from in the problem solving process. The large language model only needs to express the thoughts using Python program, the computation and solving process is accomplished via an external Python Interpreter. 
 
 <p align="center">
 <img src="assets/intro.001.jpeg" width="1000">
@@ -151,3 +153,13 @@ python compute_score.py --inputs aqua_zs_s0_e-1_11_19_11_56.jsonl --relaxed
 - Output: outputs/tabmwp_zs_s0_e-1_11_19_20_01.jsonl
 - EM Score: 0.646
 
+
+## Cite our Work
+```
+@article{chen2022program,
+  title = {Program of Thoughts Prompting: Disentangling Computation from Reasoning for Numerical Reasoning Tasks},
+  author = {Wenhu Chen and Xueguang Ma and Xinyi Wang and William W. Cohen},
+  journal={arXiv preprint arXiv:2211.12588},
+  year = {2022},
+}
+```
