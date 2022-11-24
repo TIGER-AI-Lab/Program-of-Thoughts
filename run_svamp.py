@@ -26,7 +26,7 @@ def create_reader_request(example: Dict[str, Any]) -> str:
 with open('data/SVAMP.json') as f:
     svamp_data = json.load(f)
 
-prompt_4shot = """
+prompt = """
 Read the following passages to answer questions with Python code, store the result as a 'ans' variable:
 
 # Passage: James bought 93 red and 10 blue stickers, he used 31 red sticker on his fridge and 7 blue stickers on his laptop.
@@ -91,9 +91,9 @@ if __name__ == "__main__":
         filename = f'outputs/svamp_sc_s{args.start}_e{args.end}_{dt_string}.jsonl'
     writer = open(filename, 'w')
 
-    writer.write(json.dumps({'demonstration': prompt_4shot}) + '\n')
+    writer.write(json.dumps({'demonstration': prompt}) + '\n')
     for example in tqdm(svamp_data):
-        full_prompt = prompt_4shot + "\n"
+        full_prompt = prompt + "\n"
         full_prompt += create_reader_request(example)
         if args.dry_run:
             print(full_prompt)
