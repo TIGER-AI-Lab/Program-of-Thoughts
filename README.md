@@ -83,8 +83,8 @@ python compute_score.py --inputs svamp_s0_e-1_11_06_21_11.jsonl
 
 3. SVAMP
 - Number of Test Examples: 1000
-- Output: outputs/svamp_s0_e-1_11_06_21_11.jsonl
-- EM Score: 0.835
+- Output: outputs/svamp_s0_e-1_11_24_14_38.jsonl
+- EM Score: 0.852
 
 - Output: outputs/svamp_sc_s0_e-1_11_08_14_02.jsonl
 - EM Score: 0.882
