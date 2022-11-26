@@ -13,12 +13,12 @@ We propose to disentangle computation and reasoning from in the problem solving 
 
 Comparison with Few-shot CoT:
 <p align="center">
-<img src="assets/FS-Comparison.png" width="600">
+<img src="assets/FS-comparison.png" width="600">
 </p>
 
 Comparison with Few-shot CoT with self-consistency:
 <p align="center">
-<img src="assets/SC-Comparison.png" width="600">
+<img src="assets/SC-comparison.png" width="600">
 </p>
 
 Comparison with Zero-shot CoT:
