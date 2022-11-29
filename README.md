@@ -23,7 +23,7 @@ Comparison with Few-shot CoT with self-consistency:
 
 Comparison with Zero-shot CoT:
 <p align="center">
-<img src="assets/ZS-Comparison.png" width="600">
+<img src="assets/ZS_comparison.png" width="600">
 </p>
 
 ## Running the code
