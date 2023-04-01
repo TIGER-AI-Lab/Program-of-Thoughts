@@ -13,17 +13,17 @@ We propose to disentangle computation and reasoning from in the problem solving 
 
 Comparison with Few-shot CoT:
 <p align="center">
-<img src="assets/FS-Comparison.png" width="600">
+<img src="assets/FS_comparison.png" width="600">
 </p>
 
 Comparison with Few-shot CoT with self-consistency:
 <p align="center">
-<img src="assets/SC-Comparison.png" width="600">
+<img src="assets/SC_comparison.png" width="600">
 </p>
 
 Comparison with Zero-shot CoT:
 <p align="center">
-<img src="assets/ZS-Comparison.png" width="600">
+<img src="assets/ZS_comparison.png" width="600">
 </p>
 
 ## Running the code
@@ -86,8 +86,8 @@ python compute_score.py --inputs svamp_s0_e-1_11_06_21_11.jsonl
 - Output: outputs/svamp_s0_e-1_11_24_14_38.jsonl
 - EM Score: 0.852
 
-- Output: outputs/svamp_sc_s0_e-1_11_08_14_02.jsonl
-- EM Score: 0.882
+- Output: outputs/svamp_sc_s0_e-1_11_24_15_54.jsonl
+- EM Score: 0.891
 
 4. TabWMP
 - Number of Test Examples: 7861
@@ -138,7 +138,6 @@ python compute_score.py --inputs svamp_s0_e-1_11_06_21_11.jsonl
 ```
 python compute_score.py --inputs aqua_zs_s0_e-1_11_19_11_56.jsonl --relaxed
 ```
-
 3. SVAMP
 - Number of Test Examples: 1000
 - Output: outputs/svamp_zs_s0_e-1_11_18_20_12.jsonl
