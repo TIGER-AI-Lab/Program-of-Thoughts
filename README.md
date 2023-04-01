@@ -26,6 +26,10 @@ Comparison with Zero-shot CoT:
 <img src="assets/ZS_comparison.png" width="600">
 </p>
 
+## News
+
+Added CoT evaluation for AQuA QA for GPT4, the accuracy is 72.7%
+
 ## Running the code
 
 First you need to specify your OPENAI key
