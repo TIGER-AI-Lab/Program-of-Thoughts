@@ -6,7 +6,7 @@ Here we list all the program-of-thoughts results through program generation
 | Model         |  Params  |  GSM8K  | TheoremQA |
 | --------------|----------|---------|-----------|
 | ChatGPT       |  ?       |  76.3   |  35.6     |
-| Codex         |  175B    |  71.6   |  54.1     |
+| Codex         |  175B    |  71.6   |  23.9     |
 | GPT-3         |  175B    |  60.4   |  16.6     |
 | PaLM          |  540B    |  51.3   |  -        |
 | PaLM-Coder    |  540B    |  50.9   |  -        |
