@@ -11,6 +11,6 @@ Here we list all the program-of-thoughts results through program generation
 | PaLM          |  540B    |  51.3   |  -        |
 | PaLM-Coder    |  540B    |  50.9   |  -        |
 | codegen-mono  |  15B     |  12.7   |  11.8     |
-| codet5+       |  15B     |  11.2   |  11.6     |
+| codet5+       |  15B     |  12.5   |  11.6     |
 | xgen          |  7B      |  11.0   |  11.4     |
 | codegen-multi |  15B     |  8.2    |  10.2     |
