@@ -28,7 +28,8 @@ Comparison with Zero-shot CoT:
 
 ## News
 
-Added CoT evaluation for AQuA QA for GPT4, the accuracy is 72.7%
+1. Added CoT evaluation for AQuA QA for GPT4, the accuracy is 72.7%
+2. Adding [Benchmark](https://github.com/wenhuchen/Program-of-Thoughts/blob/main/benchmark.md)
 
 ## Running the code
 
