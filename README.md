@@ -163,7 +163,7 @@ python compute_score.py --inputs aqua_zs_s0_e-1_11_19_11_56.jsonl --relaxed
 @article{chen2022program,
   title = {Program of Thoughts Prompting: Disentangling Computation from Reasoning for Numerical Reasoning Tasks},
   author = {Wenhu Chen and Xueguang Ma and Xinyi Wang and William W. Cohen},
-  journal={arXiv preprint arXiv:2211.12588},
-  year = {2022},
+  journal={Transactions on Machine Learning Research},
+  year = {2023},
 }
 ```
